@@ -6,7 +6,7 @@ import cors from "cors";
 import requestRouter from "./Routes/routes.js";
 
 const expressApp = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 // expressApp.use(express.json());
 // expressApp.use(express.text());
