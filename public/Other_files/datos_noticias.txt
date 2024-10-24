@@ -1,0 +1,10 @@
+Estructura de tabla general 
+
+CREATE TABLE news_name(
+	id_new int not null auto_increment,
+    name_new varchar(250) not null,
+    date_new varchar(100) not null,
+    ac_new varchar(100),
+    PRIMARY KEY (id_new)
+);
+

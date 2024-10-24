@@ -1,0 +1,22 @@
+{
+  "name": "news_data_base_host",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon ./app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "2.8.5",
+    "express": "4.21.0",
+    "mysql": "2.18.1",
+    "pg": "^8.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "3.1.7"
+  }
+}
